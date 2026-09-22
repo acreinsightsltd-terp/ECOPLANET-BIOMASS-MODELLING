@@ -1,0 +1,88 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================
+# Jupyter
+# ============================================================
+
+.ipynb_checkpoints/
+
+# ============================================================
+# R
+# ============================================================
+
+.Rhistory
+.RData
+.Rproj.user/
+
+# ============================================================
+# OS / editor files
+# ============================================================
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ============================================================
+# Project data
+# ============================================================
+
+# Raw field / LiDAR / SLAM data
+01_RAW/*
+
+# Intermediate processing outputs
+02_INTERMEDIATE/*
+
+# Processed outputs
+03_PROCESSED/*
+
+#Papers
+05_PAPERS/*
+
+#notes
+notes_next_steps_20260917
+# ============================================================
+# Allow documentation inside data directories
+# ============================================================
+
+!01_RAW/README.md
+!02_INTERMEDIATE/README.md
+!03_PROCESSED/README.md
+
+# ============================================================
+# Temporary / generated files
+# ============================================================
+
+*.tmp
+*.temp
+*.log
+
+# QGIS generated files
+*.qgz~
+*.qgs~
+
+# ============================================================
+# Tracked modelling datasets
+# ============================================================
+
+!02_INTERMEDIATE/final bamboo parameters v01.gpkg
+!02_INTERMEDIATE/final bamboo parameters v08.gpkg
+!02_INTERMEDIATE/final bamboo parameters v10.gpkg

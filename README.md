@@ -9,20 +9,31 @@ Drone LiDAR-based biomass modelling workflow for bamboo clumps.
 | `01_RAW` | Original field, LiDAR and SLAM data |
 | `02_INTERMEDIATE` | Data generated during processing and modelling |
 | `03_PROCESSED` | Processed outputs |
-| `04_SCRIPTS` | Data preparation, parameter extraction, validation and modelling |
+| `04_SCRIPTS` |Parameter extraction, data preparation, and validation |
+| `05_ANALYSIS` | Exploratory data analysis and modelling |
 
 ## Workflow
 
 Raw field and LiDAR data
+
         ↓
+
 Data wrangling
+
         ↓
+
 Bamboo parameter extraction
+
         ↓
+
 Drone metric validation
+
         ↓
+
 Exploratory analysis
+
         ↓
+
 Biomass modelling
 
 ## Modelling
@@ -39,7 +50,7 @@ Models investigated include:
 - Weighted power models
 
 Model validation uses grouped validation by PSP to evaluate performance
-on unseen PSPs.
+on unseen PSPs to ensure there is no target leakage that might falsely improve our accuracies due to spatial autocorrelation.
 
 ## Dataset versions
 

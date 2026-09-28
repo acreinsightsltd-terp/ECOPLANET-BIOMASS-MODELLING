@@ -14,27 +14,7 @@ Drone LiDAR-based biomass modelling workflow for bamboo clumps.
 
 ## Workflow
 
-Raw field and LiDAR data
-
-        ↓
-
-Data wrangling
-
-        ↓
-
-Bamboo parameter extraction
-
-        ↓
-
-Drone metric validation
-
-        ↓
-
-Exploratory analysis
-
-        ↓
-
-Biomass modelling
+![System Architecture Diagram](./docs/flowchart.png)
 
 ## Modelling
 
